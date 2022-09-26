@@ -8,7 +8,7 @@ public class UserInput {
 		  String str=sc.next();
 		  System.out.println("The integer value is " +a);
 		  
-		  System.out.println("The integer is " +str);
+		  System.out.println("The string is " +str);
 
 
 	    }
