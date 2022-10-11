@@ -11,23 +11,26 @@ class Bank{
 }
 class SBI extends Bank{  // this is child class of parent class Bank
 	public void show() {
-		System.out.println("The rate of interest on SBI is 8%");
+		int interest=8;
+		System.out.println("The rate of interest on SBI is "+interest+"%");
 	}
 }
-class ICCI extends Bank{   //this is child class of parent class Bank
+class ICICI extends Bank{   //this is child class of parent class Bank
 	public void show() {
-		System.out.println("The rate of interest on ICCI is 7%");
+		int interest=7;
+		System.out.println("The rate of interest on ICICi is "+interest+"%");
 	}
 }
 class AXIS extends Bank{ // this is child class of parent class Bank
 	public void show() {
-		System.out.println("The rate of interest on AXIS is 9%");
+		int interest=9;
+		System.out.println("The rate of interest on AXIS is "+interest+"%");
 	}
 }
 public class MainBank {
 	public static void main(String[] args) {
 		SBI obj1=new SBI();
-		ICCI obj2=new ICCI();
+		ICICI obj2=new ICICI();
 		AXIS obj3=new AXIS();
 		obj1.show();
 		obj2.show();
